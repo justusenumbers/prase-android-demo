@@ -2,7 +2,6 @@
 <resources>
     <string name="boolean_key">--- true
 </string>
-    <string name="empty_string_translation"/>
     <!-- This is the beautiful description for this key! -->
     <string name="key_with_description">Check it out! This key has a description! (At least in some formats)</string>
     <string name="key_with_line-break">This translations contains
