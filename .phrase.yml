@@ -1,0 +1,28 @@
+phrase:
+  project_id: $PROJECT_ID
+  file_format: xml
+ 
+  push:
+    sources:
+    - file: ./res/values/strings.xml
+      params:
+        locale_id: en-US
+        update_translations: true
+        update_descriptions: true
+        skip_upload_tags: false
+        skip_unverification: false
+        file_encoding: "UTF-8"
+        autotranslate: false
+        mark_reviewed: false
+  pull:
+    targets:
+    - file: ./res/values-es/strings.xml
+      params:
+        locale_id: es
+        include_empty_translations: false
+        exclude_empty_zero_forms: false
+        include_translated_keys: true
+        keep_notranslate_tags: false
+        encoding: "UTF-8"
+        include_unverified_translations: true
+        use_last_reviewed_version: false
