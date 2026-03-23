@@ -21,4 +21,5 @@ a line-break.</string>
     </string-array>
     <string name="simple_key">Just a  key with a message.</string>
     <string name="unverified_key">This translation is not yet verified and waits for it. (In some formats we also export this status)</string>
+    <string name="non_translatable_key" translatable="false">This key should not be translated</string>
 </resources>
