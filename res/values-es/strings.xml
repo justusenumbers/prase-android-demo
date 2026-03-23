@@ -8,6 +8,7 @@
 un salto de línea.</string>
     <string name="nested.deeply.key">Hola, esta clave está anidada aún más profundamente.</string>
     <string name="nested.key">Esta clave está anidada dentro de un espacio de nombres.</string>
+    <string name="non_translatable_key" translatable="false">Este Key no deveria ser traducido</string>
     <plurals name="pluralized_key">
         <item quantity="many">¡Hey, tienes %s pluralizaciones!</item>
         <item quantity="one">Solo se encontró una forma plural.</item>
