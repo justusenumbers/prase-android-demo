@@ -11,7 +11,6 @@ phrase:
         update_descriptions: true
         file_encoding: "UTF-8"
 
-    targets:
     - file: ./res/values-de-rDE/strings.xml
       params:
         locale_id: de-DE
