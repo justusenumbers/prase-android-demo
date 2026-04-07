@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="boolean_key"/>
+    <string name="empty_string_translation"/>
+    <!-- This is the beautiful description for this key! -->
+    <string name="key_with_description"/>
+    <string name="key_with_line-break"/>
+    <string name="nested.deeply.key"/>
+    <string name="nested.key"/>
+    <string name="null_translation"/>
+    <plurals name="pluralized_key">
+        <item quantity="many"/>
+        <item quantity="one"/>
+        <item quantity="other"/>
+    </plurals>
+    <string name="sample_collection"/>
+    <string name="simple_key"/>
+    <string name="unverified_key"/>
+</resources>
