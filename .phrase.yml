@@ -4,7 +4,7 @@ phrase:
 
   push:
     sources:
-    - file: ./library/vivinostrings/src/main/res/values/strings.xml
+    - file: ./res/values/strings.xml
       params:
         locale_id: en-US
         update_translations: true
@@ -12,87 +12,87 @@ phrase:
         file_encoding: "UTF-8"
 
     targets:
-    - file: ./library/vivinostrings/src/main/res/values-de-rDE/strings.xml
+    - file: ./res/values-de-rDE/strings.xml
       params:
         locale_id: de-DE
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-fr-rFR/strings.xml
+    - file: ./res/values-fr-rFR/strings.xml
       params:
         locale_id: fr-FR
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-ja/strings.xml
+    - file: ./res/values-ja/strings.xml
       params:
         locale_id: ja
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-pl/strings.xml
+    - file: ./res/values-pl/strings.xml
       params:
         locale_id: pl
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-pt-rPT/strings.xml
+    - file: ./res/values-pt-rPT/strings.xml
       params:
         locale_id: pt-PT
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-sv-rSE/strings.xml
+    - file: ./res/values-sv-rSE/strings.xml
       params:
         locale_id: sv-SE
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-zh-rHK/strings.xml
+    - file: ./res/values-zh-rHK/strings.xml
       params:
         locale_id: zh-HK
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-da-rDK/strings.xml
+    - file: ./res/values-da-rDK/strings.xml
       params:
         locale_id: da-rDK
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-es/strings.xml
+    - file: ./res/values-es/strings.xml
       params:
         locale_id: es
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-it-rIT/strings.xml
+    - file: ./res/values-it-rIT/strings.xml
       params:
         locale_id: it-IT
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-nl-rNL/strings.xml
+    - file: ./res/values-nl-rNL/strings.xml
       params:
         locale_id: nl-NL
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-pt-rBR/strings.xml
+    - file: ./res/values-pt-rBR/strings.xml
       params:
         locale_id: pt-BR
         include_empty_translations: true
         include_translated_keys: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-ru-rRU/strings.xml
+    - file: ./res/values-ru-rRU/strings.xml
       params:
         locale_id: ru-RU
         include_empty_translations: true
         include_translated_keys: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-uk-rUA/strings.xml
+    - file: ./res/values-uk-rUA/strings.xml
       params:
         locale_id: uk-UA
         include_empty_translations: true
@@ -100,87 +100,87 @@ phrase:
 
   pull:
     targets:
-    - file: ./library/vivinostrings/src/main/res/values-de-rDE/strings.xml
+    - file: ./res/values-de-rDE/strings.xml
       params:
         locale_id: de-DE
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-fr-rFR/strings.xml
+    - file: ./res/values-fr-rFR/strings.xml
       params:
         locale_id: fr-FR
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-ja/strings.xml
+    - file: ./res/values-ja/strings.xml
       params:
         locale_id: ja
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-pl/strings.xml
+    - file: ./res/values-pl/strings.xml
       params:
         locale_id: pl
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-pt-rPT/strings.xml
+    - file: ./res/values-pt-rPT/strings.xml
       params:
         locale_id: pt-PT
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-sv-rSE/strings.xml
+    - file: ./res/values-sv-rSE/strings.xml
       params:
         locale_id: sv-SE
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-zh-rHK/strings.xml
+    - file: ./res/values-zh-rHK/strings.xml
       params:
         locale_id: zh-HK
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-da-rDK/strings.xml
+    - file: ./res/values-da-rDK/strings.xml
       params:
         locale_id: da-rDK
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-es/strings.xml
+    - file: ./res/values-es/strings.xml
       params:
         locale_id: es
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-it-rIT/strings.xml
+    - file: ./res/values-it-rIT/strings.xml
       params:
         locale_id: it-IT
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-nl-rNL/strings.xml
+    - file: ./res/values-nl-rNL/strings.xml
       params:
         locale_id: nl-NL
         include_empty_translations: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-pt-rBR/strings.xml
+    - file: ./res/values-pt-rBR/strings.xml
       params:
         locale_id: pt-BR
         include_empty_translations: true
         include_translated_keys: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-ru-rRU/strings.xml
+    - file: ./res/values-ru-rRU/strings.xml
       params:
         locale_id: ru-RU
         include_empty_translations: true
         include_translated_keys: true
         encoding: "UTF-8"
 
-    - file: ./library/vivinostrings/src/main/res/values-uk-rUA/strings.xml
+    - file: ./res/values-uk-rUA/strings.xml
       params:
         locale_id: uk-UA
         include_empty_translations: true
