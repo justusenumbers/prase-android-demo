@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="boolean_key">--- истинный
+</string>
+    <!-- This is the beautiful description for this key! -->
+    <string name="key_with_description">Посмотрите! У этого ключа есть описание! (По крайней мере, в некоторых форматах)</string>
+    <string name="key_with_line-break">В этом переводе присутствует перенос строки.</string>
+    <string name="nested.deeply.key">Эй, этот ключ вложен ещё глубже.</string>
+    <string name="nested.key">Этот ключ вложен в пространство имен.</string>
+    <string name="null_translation"/>
+    <plurals name="pluralized_key">
+        <item quantity="one">Обнаружена только одна форма множественного числа.</item>
+        <item quantity="other">Эй, у тебя есть%s образования множественного числа!</item>        
+    </plurals>
+    <string-array name="sample_collection">
+        <item>первый предмет</item>
+        <item>второй пункт</item>
+        <item>третий пункт</item>
+    </string-array>
+    <string name="simple_key">Просто ключ с сообщением.</string>
+    <string name="unverified_key">Данный перевод еще не проверен и ожидает подтверждения. (В некоторых форматах мы также экспортируем этот статус)</string>
+    <string name="non_translatable_key" translatable="false">This key should not be translated</string>
+</resources>

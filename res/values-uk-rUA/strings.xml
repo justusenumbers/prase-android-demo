@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="boolean_key">--- правда
+</string>
+    <!-- This is the beautiful description for this key! -->
+    <string name="key_with_description">Дивіться! Цей ключ має опис! (Принаймні в деяких форматах)</string>
+    <string name="key_with_line-break">Цей переклад містить розрив рядка.</string>
+    <string name="nested.deeply.key">Гей, цей ключ вкладений ще глибше.</string>
+    <string name="nested.key">Цей ключ вкладений у простір назв.</string>
+    <string name="null_translation"/>
+    <plurals name="pluralized_key">
+        <item quantity="one">Знайдено лише одну множинну форму.</item>
+        <item quantity="other">Гей, ти мав %s Множини!</item>        
+    </plurals>
+    <string-array name="sample_collection">
+        <item>Перший пункт</item>
+        <item>Другий пункт</item>
+        <item>Третій пункт</item>
+    </string-array>
+    <string name="simple_key">Просто ключ із повідомленням.</string>
+    <string name="unverified_key">Цей переклад ще не підтверджений і чекає на це. (У деяких форматах ми також експортуємо цей статус)</string>
+    <string name="non_translatable_key" translatable="false">This key should not be translated</string>
+</resources>

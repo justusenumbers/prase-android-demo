@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="boolean_key">--- sant
+</string>
+    <!-- This is the beautiful description for this key! -->
+    <string name="key_with_description">Kolla in det! Denna nyckel har en beskrivning! (Åtminstone i vissa format)</string>
+    <string name="key_with_line-break">Denna översättning innehåller ett radbryt.</string>
+    <string name="nested.deeply.key">Hej, denna nyckel är ännu djupare inbäddad.</string>
+    <string name="nested.key">Denna nyckel är inbäddad i ett namnrum.</string>
+    <string name="null_translation"/>
+    <plurals name="pluralized_key">
+        <item quantity="one">Endast en pluralform hittades.</item>
+        <item quantity="other">Hej, du har %s pluraliseringar!</item>        
+    </plurals>
+    <string-array name="sample_collection">
+        <item>första objektet</item>
+        <item>andra objektet</item>
+        <item>tredje objektet</item>
+    </string-array>
+    <string name="simple_key">Bara en nyckel med ett meddelande.</string>
+    <string name="unverified_key">Denna översättning är ännu inte verifierad och väntar på det. (I vissa format exporterar vi också denna status)</string>
+    <string name="non_translatable_key" translatable="false">This key should not be translated</string>
+</resources>

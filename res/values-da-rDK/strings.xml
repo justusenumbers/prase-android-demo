@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="boolean_key">--- sand
+</string>
+    <!-- This is the beautiful description for this key! -->
+    <string name="key_with_description">Se her! Denne nøgle har en beskrivelse! (I hvert fald i visse formater)</string>
+    <string name="key_with_line-break">Denne oversættelse indeholder et linjeskift.</string>
+    <string name="nested.deeply.key">Hej, denne nøgle ligger endnu dybere.</string>
+    <string name="nested.key">Denne nøgle er placeret i et navneområde.</string>
+    <string name="null_translation"/>
+    <plurals name="pluralized_key">
+        <item quantity="one">Der blev kun fundet én flertalsform.</item>
+        <item quantity="other">Hej, du har%sflertalsformer!</item>        
+    </plurals>
+    <string-array name="sample_collection">
+        <item>første punkt</item>
+        <item>andet punkt</item>
+        <item>tredje punkt</item>
+    </string-array>
+    <string name="simple_key">Bare en nøgle med en besked.</string>
+    <string name="unverified_key">Denne oversættelse er endnu ikke verificeret og afventer verifikation. (I visse formater eksporterer vi også denne status)</string>
+    <string name="non_translatable_key" translatable="false">This key should not be translated</string>
+    </resources>

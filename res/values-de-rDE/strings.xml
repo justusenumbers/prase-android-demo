@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="boolean_key">--- true
+</string>
+    <!-- This is the beautiful description for this key! -->
+    <string name="key_with_description">Schau dir das an! Dieser Schlüssel hat eine Beschreibung! (Mindestens in einigen Formaten)</string>
+    <string name="key_with_line-break">Diese Übersetzung enthält einen Zeilenumbruch.</string>
+    <string name="nested.deeply.key">Hey, dieser Schlüssel ist noch tiefer geschachtelt.</string>
+    <string name="nested.key">Dieser Schlüssel ist innerhalb eines Namensraums geschachtelt.</string>
+    <string name="null_translation"/>
+    <plurals name="pluralized_key">
+        <item quantity="one">Es wurde nur eine Pluralform gefunden.</item>
+        <item quantity="other">Hey, du hast %s Pluralisierungen!</item>        
+    </plurals>
+    <string-array name="sample_collection">
+        <item>erstes Element</item>
+        <item>zweites Element</item>
+        <item>drittes Element</item>
+    </string-array>
+    <string name="simple_key">Nur ein Schlüssel mit einer Nachricht.</string>
+    <string name="unverified_key">Diese Übersetzung ist noch nicht verifiziert und wartet darauf. (In einigen Formaten exportieren wir auch diesen Status)</string>
+    <string name="non_translatable_key" translatable="false">This key should not be translated</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="boolean_key">- - 真的
+</string>
+    <!-- This is the beautiful description for this key! -->
+    <string name="key_with_description">一探究竟！此圖例有說明！（至少在某些格式中）</string>
+    <string name="key_with_line-break">此譯文包含換行符。</string>
+    <string name="nested.deeply.key">嘿，這個密鑰嵌套得更深。</string>
+    <string name="nested.key">此鍵嵌套在命名空間中。</string>
+    <string name="null_translation"/>
+    <plurals name="pluralized_key">
+        <item quantity="one">僅找到一種複數形式。</item>
+        <item quantity="other">嘿，你有%s複數形式！</item>        
+    </plurals>
+    <string-array name="sample_collection">
+        <item>第一項</item>
+        <item>第二項</item>
+        <item>第三項</item>
+    </string-array>
+    <string name="simple_key">只是一把有訊息的鑰匙。</string>
+    <string name="unverified_key">此譯文尚未核實，待核實後再行審核。（某些格式中我們也會匯出此狀態）</string>
+    <string name="non_translatable_key" translatable="false">This key should not be translated</string>
+</resources>
