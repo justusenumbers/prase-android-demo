@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="boolean_key">--- ja
+</string>
+    <string name="empty_string_translation"/>
+    <!-- This is the beautiful description for this key! -->
+    <string name="key_with_description">Kijk eens! Deze sleutel heeft een beschrijving! (Tenminste in sommige formaten)</string>
+    <string name="key_with_line-break">Deze vertaling bevat een regeleinde.</string>
+    <string name="nested.deeply.key">Hé, deze sleutel zit nog dieper verborgen.</string>
+    <string name="nested.key">Deze sleutel is genest binnen een naamruimte.</string>
+    <string name="null_translation"/>
+    <plurals name="pluralized_key">
+        <item quantity="one">Er is slechts één meervoudsvorm gevonden.</item>
+        <item quantity="other">Hé, je hebt%s  meervoudsvormen!</item>
+    </plurals>
+    <string-array name="sample_collection">
+        <item>eerste punt</item>
+        <item>tweede punt</item>
+        <item>derde punt</item>
+    </string-array>
+    <string name="simple_key">Gewoon een sleutel met een boodschap.</string>
+    <string name="unverified_key">Deze vertaling is nog niet gecontroleerd en wacht daarop. (In sommige formaten exporteren we deze status ook)</string>
+</resources>
