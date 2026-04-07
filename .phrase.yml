@@ -1,28 +1,187 @@
 phrase:
   project_id: 46618a649dd5206a73350ad786b2e23d
   file_format: xml
- 
+
   push:
     sources:
-    - file: ./res/values/strings.xml
+    - file: ./library/vivinostrings/src/main/res/values/strings.xml
       params:
         locale_id: en-US
         update_translations: true
         update_descriptions: true
-        skip_upload_tags: false
-        skip_unverification: false
         file_encoding: "UTF-8"
-        autotranslate: false
-        mark_reviewed: false
-  pull:
+
     targets:
-    - file: ./res/values-es/strings.xml
+    - file: ./library/vivinostrings/src/main/res/values-de-rDE/strings.xml
+      params:
+        locale_id: de-DE
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-fr-rFR/strings.xml
+      params:
+        locale_id: fr-FR
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-ja/strings.xml
+      params:
+        locale_id: ja
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-pl/strings.xml
+      params:
+        locale_id: pl
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-pt-rPT/strings.xml
+      params:
+        locale_id: pt-PT
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-sv-rSE/strings.xml
+      params:
+        locale_id: sv-SE
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-zh-rHK/strings.xml
+      params:
+        locale_id: zh-HK
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-da-rDK/strings.xml
+      params:
+        locale_id: da-rDK
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-es/strings.xml
       params:
         locale_id: es
-        include_empty_translations: false
-        exclude_empty_zero_forms: false
-        include_translated_keys: true
-        keep_notranslate_tags: false
+        include_empty_translations: true
         encoding: "UTF-8"
-        include_unverified_translations: true
-        use_last_reviewed_version: false
+
+    - file: ./library/vivinostrings/src/main/res/values-it-rIT/strings.xml
+      params:
+        locale_id: it-IT
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-nl-rNL/strings.xml
+      params:
+        locale_id: nl-NL
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-pt-rBR/strings.xml
+      params:
+        locale_id: pt-BR
+        include_empty_translations: true
+        include_translated_keys: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-ru-rRU/strings.xml
+      params:
+        locale_id: ru-RU
+        include_empty_translations: true
+        include_translated_keys: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-uk-rUA/strings.xml
+      params:
+        locale_id: uk-UA
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+  pull:
+    targets:
+    - file: ./library/vivinostrings/src/main/res/values-de-rDE/strings.xml
+      params:
+        locale_id: de-DE
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-fr-rFR/strings.xml
+      params:
+        locale_id: fr-FR
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-ja/strings.xml
+      params:
+        locale_id: ja
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-pl/strings.xml
+      params:
+        locale_id: pl
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-pt-rPT/strings.xml
+      params:
+        locale_id: pt-PT
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-sv-rSE/strings.xml
+      params:
+        locale_id: sv-SE
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-zh-rHK/strings.xml
+      params:
+        locale_id: zh-HK
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-da-rDK/strings.xml
+      params:
+        locale_id: da-rDK
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-es/strings.xml
+      params:
+        locale_id: es
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-it-rIT/strings.xml
+      params:
+        locale_id: it-IT
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-nl-rNL/strings.xml
+      params:
+        locale_id: nl-NL
+        include_empty_translations: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-pt-rBR/strings.xml
+      params:
+        locale_id: pt-BR
+        include_empty_translations: true
+        include_translated_keys: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-ru-rRU/strings.xml
+      params:
+        locale_id: ru-RU
+        include_empty_translations: true
+        include_translated_keys: true
+        encoding: "UTF-8"
+
+    - file: ./library/vivinostrings/src/main/res/values-uk-rUA/strings.xml
+      params:
+        locale_id: uk-UA
+        include_empty_translations: true
+        encoding: "UTF-8"
